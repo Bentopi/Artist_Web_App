@@ -5,10 +5,22 @@
 body {
   background-color: #34495e;
   color: #ecf0f1;
+  margin-bottom: 50px;
 }
 .navbar-home {
   text-decoration: none;
   &:hover {
+  text-decoration: none;
+  }
+}
+
+.album-list {
+  text-decoration: none;
+  color: #ecf0f1;
+  font-size: 1.2em;
+  line-height: 30px;
+  &:hover {
+  color: darken(#ecf0f1, 20%);
   text-decoration: none;
   }
 }

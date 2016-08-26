@@ -1,9 +1,7 @@
 <div class="container">
   <h1>Search Results for: <%= params[:artist_name] %></h1>
   <hr>
-  <ul>
    <% @artists.each do |artist| %>
-     <li><%= link_to artist.name, artist_path(artist.id) %></li>
+     <%= link_to artist.name, artist_path(artist.id), class: "album-list" %> <br>
    <% end %>
-  </ul>
 </div>

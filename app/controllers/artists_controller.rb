@@ -13,4 +13,7 @@ def show
   @artist = RSpotify::Artist.find(params[:id])
 end
 
+def album_show
+end
+
 end
